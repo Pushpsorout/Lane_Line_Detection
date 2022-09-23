@@ -1,5 +1,5 @@
 pip install opencv-python ## installed opencv- python 
-
+## OpenCV is a huge open-source library for computer vision, machine learning, and image processing
 
 # This Python 3 environment comes with many helpful analytics libraries installed
 # For example, here is several helpful packages to load in such as
