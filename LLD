@@ -2,7 +2,7 @@ pip install opencv-python
 
 
 # This Python 3 environment comes with many helpful analytics libraries installed
-# For example, here is several helpful packages to load in 
+# For example, here is several helpful packages to load in such as
 
 import numpy as np
 # linear algebra
