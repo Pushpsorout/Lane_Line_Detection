@@ -4,7 +4,7 @@ pip install opencv-python ## installed opencv-python
 # This Python 3 environment comes with many helpful analytics libraries installed
 # For example, here is several helpful packages to load in such as
 
-import numpy as np  ## mainly it is a Python library used for working with arrays and perform operation for linear algebra, fourier transform, and matrices 
+import numpy as np  # mainly it is a Python library used for working with arrays and perform operation for linear algebra, fourier transform, and matrices 
 
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 
