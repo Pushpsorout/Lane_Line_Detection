@@ -44,7 +44,7 @@ ysize = image.shape[0]
 xsize = image.shape[1]
 color_select = np.copy(image)
 
-# Define color selection criteria
+## Define color selection criteria
 ###### MODIFY THESE VARIABLES TO MAKE YOUR COLOR SELECTION
 red_threshold = 200
 green_threshold = 200
