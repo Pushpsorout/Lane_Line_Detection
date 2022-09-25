@@ -198,11 +198,7 @@ plt.title("Output Image")
 plt.show()
 
 
-# Do all the relevant imports
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-import numpy as np
-import cv2
+
 
 # Read in the image and convert to grayscale
 # Note: in the previous example we were reading a .jpg 
