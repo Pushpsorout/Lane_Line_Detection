@@ -280,12 +280,12 @@ plt.show()
 
 
 #5. Let's Make a Lane Detection Pipeline
-Gray Scale
-Gaussian Smoothing
-Canny Edge Detection
-Region Masking
-Hough Transform
-Draw Lines [Mark Lane Lines with different Color]
+#1.Gray Scale
+#2.Gaussian Smoothing
+#3.Canny Edge Detection
+#4.Region Masking
+#5.Hough Transform
+#6.Draw Lines [Mark Lane Lines with different Color]
 
 import math
 
