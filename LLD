@@ -70,7 +70,7 @@ plt.show()
 # mpimg.imsave("test-after.jpg", color_select)
 
 
-
+#2. Region Masking
 
 # Read in the image
 image = mpimg.imread('test_images/solidWhiteRight.jpg')
