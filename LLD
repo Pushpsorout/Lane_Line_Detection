@@ -198,7 +198,7 @@ plt.title("Output Image")
 plt.show()
 
 
-
+#3. Canny Edge Detection
 
 # Read in the image and convert to grayscale
 # Note: in the previous example we were reading a .jpg 
