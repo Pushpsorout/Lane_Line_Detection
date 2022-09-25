@@ -279,6 +279,14 @@ plt.title("Colored Lane line [In RED] and Region of Interest [In Blue]")
 plt.show()
 
 
+#5. Let's Make a Lane Detection Pipeline
+Gray Scale
+Gaussian Smoothing
+Canny Edge Detection
+Region Masking
+Hough Transform
+Draw Lines [Mark Lane Lines with different Color]
+
 import math
 
 def grayscale(img):
