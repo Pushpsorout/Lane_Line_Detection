@@ -7,6 +7,7 @@ pip install opencv-python ## installed opencv-python
 import numpy as np  # mainly it is a Python library used for working with arrays and perform operation for linear algebra, fourier transform, and matrices 
 
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+## Pandas is a predominantly used python data analysis library
 
 # Input data files are available in the "../input/" directory.
 # For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
