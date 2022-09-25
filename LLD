@@ -32,7 +32,7 @@ copy_tree("./Lane_Line_Detection/test_videos", "./test_videos")
 shutil.rmtree('./Lane_Line_Detection', ignore_errors=False, onerror=None)
 
 
-
+#1. Color Selection
 
 # Read in the image
 image = mpimg.imread('test_images/solidWhiteRight.jpg')
