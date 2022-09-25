@@ -134,9 +134,7 @@ plt.title("Region Masked Image [Lane Lines in Green]")
 plt.show()
 
 
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-import numpy as np
+
 
 # Read in the image
 image = mpimg.imread('test_images/solidYellowLeft.jpg')
