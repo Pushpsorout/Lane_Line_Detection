@@ -70,9 +70,7 @@ plt.show()
 # mpimg.imsave("test-after.jpg", color_select)
 
 
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-import numpy as np
+
 
 # Read in the image
 image = mpimg.imread('test_images/solidWhiteRight.jpg')
