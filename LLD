@@ -221,6 +221,8 @@ plt.title("Canny Edge Detection Image")
 plt.show()
 
 
+#4. Hough Transform and detecting Lane Lines
+
 # Read in and grayscale the image
 image = mpimg.imread('test_images/solidYellowLeft.jpg')
 gray = cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
