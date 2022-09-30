@@ -158,7 +158,7 @@ color_thresholds = (image[:,:,0] < rgb_threshold[0]) | \
                     (image[:,:,1] < rgb_threshold[1]) | \
                     (image[:,:,2] < rgb_threshold[2])
 
-# Find the region inside the lines
+# Find the region insides the lines
 XX, YY = np.meshgrid(np.arange(0, xsize), np.arange(0, ysize))
 region_thresholds = (YY > (XX*fit_left[0] + fit_left[1])) & \
                     (YY > (XX*fit_right[0] + fit_right[1])) & \
@@ -394,7 +394,7 @@ def lane_finding_pipeline(image):
     canny_img = canny(img = smoothed_img, low_threshold = 180, high_threshold = 240)
     #Masked Image Within a Polygon
     masked_img = region_of_interest(img = canny_img, vertices = get_vertices(image))
-    #Hough Transform Lines
+    ## Hough Transform Lines
     houghed_lines = hough_lines(img = masked_img, rho = 1, theta = np.pi/180, threshold = 20, min_line_len = 20, max_line_gap = 180)
     #Draw lines on edges
     output = weighted_img(img = houghed_lines, initial_img = image, α=0.8, β=1., γ=0.)
