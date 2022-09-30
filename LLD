@@ -6,7 +6,6 @@ import pandas as pd # data processing
 import os
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
-import numpy as np
 import cv2
 %matplotlib inline
 
